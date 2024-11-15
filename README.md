@@ -16,7 +16,7 @@
 >
 > **_Reference_:** https://paperswithcode.com/paper/language-models-are-unsupervised-multitask
 >
->![GptForChat.jpg](main%2FGraph_%2FGptForChat.jpg)
+>![GptForChat.jpg](Graph_%2FGptForChat.jpg)
 >
 >![CasualAttention.jpg](Graph_%2FCasualAttention.jpg)
 ><div style="text-align: justify;">GPT-2 (Generative Pre-training Transformer 2.0), introduced by OpenAI in 2019 as the second generation of generative pre-training model, is an auto-regressive Decoder-only Transformer. GPT-2 is based on the auto-regression mechanism, which predicts the unknown subsequent text based on the known preceding text. This mechanism enables GPT-2 to maintain coherence and consistency when generating text. Additionally, GPT-2 adopts a Decoder-only structure, utilizing only the decoder part of the Transformer. This structure makes GPT-2 more suitable for generative tasks such as text generation and dialogue simulation.</div>
@@ -88,7 +88,7 @@ ChatModel(<br>
 ![Traninig_.png](Graph_%2FTraining_.png)
 >---
 >* **TestPart:**
->![Test_imagine](Test_.png)
+>![Test_imagine](Graph_%2FTest_.png)
 >---
 >* **Notice:**
 There are some compatibility issues between the versions of Pytorch and transformers, so some warnings will be reported by Pycharm during training and test.
