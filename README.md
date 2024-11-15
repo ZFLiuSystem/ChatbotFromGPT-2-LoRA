@@ -88,7 +88,7 @@ ChatModel(<br>
 ![Traninig_.png](Graph_%2FTraining_.png)
 >---
 >* **TestPart:**
->![Test_.png](Graph_%2FTest_.png)
+>![Test_imagine](Test_.png)
 >---
 >* **Notice:**
 There are some compatibility issues between the versions of Pytorch and transformers, so some warnings will be reported by Pycharm during training and test.
