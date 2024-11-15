@@ -1,0 +1,1 @@
+> * **Notice**<br>This folder is used to store the fine-tuned model weights (fine_tuning_gpt2.pth).
