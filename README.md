@@ -85,7 +85,7 @@ ChatModel(<br>
 )
 >---
 >* **TrainingPart:**
-![Traninig_.png](https://raw.githubusercontent.com/ZFLiuSystem/ChatbotFromGPT-2-LoRA/main/Graph_/Training_.png)
+![Traninig_.png](Graph_%2FTraining_.png)
 >---
 >* **TestPart:**
 >![Test_.png](Graph_%2FTest_.png)
