@@ -16,9 +16,9 @@
 >
 > **_Reference_:** https://paperswithcode.com/paper/language-models-are-unsupervised-multitask
 >
->![GptForChat.jpg](Graph_%2FGptForChat.jpg)
+>![GptForChat.jpg](Graph_/GptForChat.jpg)
 >
->![CasualAttention.jpg](Graph_%2FCasualAttention.jpg)
+>![CasualAttention.jpg](Graph_/CasualAttention.jpg)
 ><div style="text-align: justify;">GPT-2 (Generative Pre-training Transformer 2.0), introduced by OpenAI in 2019 as the second generation of generative pre-training model, is an auto-regressive Decoder-only Transformer. GPT-2 is based on the auto-regression mechanism, which predicts the unknown subsequent text based on the known preceding text. This mechanism enables GPT-2 to maintain coherence and consistency when generating text. Additionally, GPT-2 adopts a Decoder-only structure, utilizing only the decoder part of the Transformer. This structure makes GPT-2 more suitable for generative tasks such as text generation and dialogue simulation.</div>
 ><br><div style="text-align: justify;">The causal self-attention mechanism within GPT-2 ensures that the model strictly follows the temporal order when generating text, meaning it can only use past and current tokens to predict future tokens. This mechanism relies on the masking operation of the attention matrix. This causal self-attention bears similarities to traditional language models, which also predict future tokens based on past tokens to generate coherent text sequences. GPT-2 adheres to the style of traditional language models while incorporating the Transformer architecture, achieving more efficient and accurate text generation.</div>
 
@@ -26,7 +26,7 @@
 > 
 > **_Reference_:** https://paperswithcode.com/paper/lora-low-rank-adaptation-of-large-language
 >
->![LoraTuning.jpg](Graph_%2FLoraTuning.jpg)
+>![LoraTuning.jpg](Graph_/LoraTuning.jpg)
 ><div style="text-align: justify;">Pre-trained large language models, such as the GPT series, often face issues of high computational power consumption and long training times when undergoing full fine-tuning for downstream tasks due to their vast number of parameters. To address this challenge, LoRA (Low-Rank Adaptation) emerges as a highly effective method.<br>
 ><br>As an efficient fine-tuning strategy, the core concept of LoRA lies in reducing the amount of parameters to be trained through low-rank decomposition. Specifically, instead of directly fine-tuning all the parameters of the pre-trained model, LoRA combines the low-rank updates of the model parameters with the original parameters to achieve fine-tuning. This approach not only significantly reduces the number of parameters that need to be trained but also lowers the GPU memory footprint, making fine-tuning of large models feasible with limited resources.<br>
 ><br>In fact, LoRA achieves efficient fine-tuning without compromising the model's performance. According to relevant research and experimental validation, models fine-tuned with LoRA perform comparably to those fully fine-tuned on downstream tasks and can even achieve better results in some cases. This advantage has made LoRA widely popular in practical applications.</div>
@@ -85,7 +85,7 @@ ChatModel(<br>
 )
 >---
 >* **TrainingPart:**
-![Traninig_.png](Graph_%2FTraining_.png)
+![Traninig_.png](Graph_/Training_.png)
 >---
 >* **TestPart:**
 >![Test_.png](Graph_/Test_.png)
